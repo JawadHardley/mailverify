@@ -1,3 +1,3 @@
 <x-layout>
-    haha
+    Dashboard
 </x-layout>

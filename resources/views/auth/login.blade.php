@@ -89,7 +89,7 @@
               </div>
             </form>
           </div>
-          <div class="hr-text">or</div>
+          {{-- <div class="hr-text">or</div>
           <div class="card-body">
             <div class="row">
               <div class="col"><a href="#" class="btn w-100">
@@ -103,7 +103,7 @@
                   Login with X
                 </a></div>
             </div>
-          </div>
+          </div> --}}
         </div>
         <div class="text-center text-secondary mt-3">
           Don't have account yet? <a href="./register" tabindex="-1">Sign up</a>
