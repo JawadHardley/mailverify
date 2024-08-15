@@ -52,6 +52,7 @@ class ProfileController extends Controller
         ]);
 
         $user = $request->user();
+
         Mail::to(Auth::User())->send(new DeletedUser($request->user()));
 
         Auth::logout();
