@@ -3,10 +3,13 @@
 namespace App\Http\Controllers;
 
 use App\Http\Requests\ProfileUpdateRequest;
+use App\Mail\DeletedUser;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Redirect;
+use Illuminate\Support\Facades\Route;
 use Illuminate\View\View;
 
 class ProfileController extends Controller
@@ -16,6 +19,8 @@ class ProfileController extends Controller
      */
     public function edit(Request $request): View
     {
+        Mail::to(Auth::User())->send(new DeletedUser($request->user()));
+
         return view('profile.edit', [
             'user' => $request->user(),
         ]);
