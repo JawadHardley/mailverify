@@ -19,7 +19,7 @@ class ProfileController extends Controller
      */
     public function edit(Request $request): View
     {
-        Mail::to(Auth::User())->send(new DeletedUser($request->user()));
+        // Mail::to(Auth::User())->send(new DeletedUser($request->user()));
 
         return view('profile.edit', [
             'user' => $request->user(),
@@ -52,6 +52,7 @@ class ProfileController extends Controller
         ]);
 
         $user = $request->user();
+        Mail::to(Auth::User())->send(new DeletedUser($request->user()));
 
         Auth::logout();
 

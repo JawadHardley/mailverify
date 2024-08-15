@@ -149,8 +149,6 @@ table, td { color: #000000; } #u_body a { color: #0000ee; text-decoration: under
   <tr>
     <td class="v-text-align" style="padding-right: 0px;padding-left: 0px;" align="right">
 
-      <img align="right" border="0" src="https://d3p3fw3rutb1if.cloudfront.net/photos/4b6759fd-d2fb-4dd1-a11c-4d33f9d458fa" alt="image" title="image" style="outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: inline-block !important;border: none;height: auto;float: none;width: 16%;max-width: 91.2px;" width="91.2" class="v-src-width v-src-max-width"/>
-
     </td>
   </tr>
 </table>
@@ -263,7 +261,7 @@ table, td { color: #000000; } #u_body a { color: #0000ee; text-decoration: under
       <td class="v-container-padding-padding" style="overflow-wrap:break-word;word-break:break-word;padding:30px 170px 10px 20px;font-family:arial,helvetica,sans-serif;" align="left">
 
   <!--[if mso]><table width="100%"><tr><td><![endif]-->
-    <h1 class="v-text-align v-line-height v-font-size" style="margin: 0px; line-height: 120%; text-align: left; word-wrap: break-word; font-family: Arvo; font-size: 30px; font-weight: 400;"><span style="line-height: 26.4px;"><span style="line-height: 26.4px;">Farewell and Thank You {{ $user->name }}</span></span></h1>
+    <h1 class="v-text-align v-line-height v-font-size" style="margin: 0px; line-height: 120%; text-align: left; word-wrap: break-word; font-family: Arvo; font-size: 30px; font-weight: 400;"><span style="line-height: 26.4px;"><span style="line-height: 26.4px;">Farewell <b>{{ $user->name }} </b></span></span></h1>
   <!--[if mso]></td></tr></table><![endif]-->
 
       </td>
@@ -323,8 +321,6 @@ This is to confirm that your account with [Your Company Name] has been successfu
 <table width="100%" cellpadding="0" cellspacing="0" border="0">
   <tr>
     <td class="v-text-align" style="padding-right: 0px;padding-left: 0px;" align="right">
-
-      <img align="right" border="0" src="https://d3p3fw3rutb1if.cloudfront.net/photos/4b6759fd-d2fb-4dd1-a11c-4d33f9d458fa" alt="image" title="image" style="outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: inline-block !important;border: none;height: auto;float: none;width: 90%;max-width: 540px;" width="540" class="v-src-width v-src-max-width"/>
 
     </td>
   </tr>
